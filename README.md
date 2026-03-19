@@ -48,6 +48,18 @@ mklink /H "%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\Local
 
 To import the FluentFlyout configuration, open [FluentFlyout](https://github.com/unchihugo/fluentflyout/), go to the **System** tab, navigate to the **Backup and Restore** section, and click **Import Settings**. Then select the `FluentFlyout/settings.xml` file from this repo.
 
+## Winhance Config
+
+My Winhance config is in `winhance/config.winhance`.
+
+To install my config, open [Winhance](https://github.com/memstechtips/Winhance), go to the **Settings** tab, then in the **Configuration** section click **Import** and select `winhance/config.winhance` from this repo.
+
+> [!WARNING]
+> This is my personal config. It may break on some systems, and a lot of it is preference-based, so you might not enjoy how it behaves.
+> Use it at your own risk.
+
+If you want to test it, back up your current config first so you can revert, or create a restore point before making changes.
+
 ## Wallpapers
 
 The wallpapers in the `wallpapers/` folder are sourced primarily from [Wallhaven](https://wallhaven.cc) and various other sources. I don't retain detailed attribution for all of them, so please don't sue me. If you see your work here and want attribution or removal, feel free to reach out.
