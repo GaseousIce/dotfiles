@@ -44,7 +44,7 @@ mklink /H "%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\Local
 
 ## FluentFlyout Settings
 
-To import the FluentFlyout configuration, open FluentFlyout, go to the **System** tab, navigate to the **Backup and Restore** section, and click **Import Settings**. Then select the `FluentFlyout/settings.xml` file from this repo.
+To import the FluentFlyout configuration, open [FluentFlyout](https://github.com/unchihugo/fluentflyout/), go to the **System** tab, navigate to the **Backup and Restore** section, and click **Import Settings**. Then select the `FluentFlyout/settings.xml` file from this repo.
 
 ## Wallpapers
 
