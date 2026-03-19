@@ -63,7 +63,9 @@ If you want to test it, back up your current config first so you can revert, or 
 ## StartAllBack
 
 I use [StartAllBack](https://www.startallback.com/) to reduce bright flashes in legacy apps and older pages.
+
 It is mostly a preference thing. It is lightweight, and if you like legacy Windows UI elements, it can bring some of that look back.
+
 I mainly use it for a more consistent dark-mode experience on Windows, but it is not flawless, and some legacy pages can still flash bright.
 
 ## Wallpapers
