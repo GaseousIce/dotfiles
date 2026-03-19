@@ -4,6 +4,8 @@ These are my dotfiles for Windows, focused on PowerShell and related tooling.
 
 For Linux dots, see the Loonix branch in this repo: https://github.com/GaseousIce/dotfiles/tree/loonix
 
+![Preview](screenshot.png)
+
 ## Hardlink PowerShell profile
 
 Create a hardlink from your profile location to this repo so PowerShell picks up the shared profile. Run these from the repo root so relative paths work.
