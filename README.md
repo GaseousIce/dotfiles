@@ -60,6 +60,12 @@ To install my config, open [Winhance](https://github.com/memstechtips/Winhance),
 
 If you want to test it, back up your current config first so you can revert, or create a restore point before making changes.
 
+## StartAllBack
+
+I use [StartAllBack](https://www.startallback.com/) to reduce bright flashes in legacy apps and older pages.
+It is mostly a preference thing. It is lightweight, and if you like legacy Windows UI elements, it can bring some of that look back.
+I mainly use it for a more consistent dark-mode experience on Windows, but it is not flawless, and some legacy pages can still flash bright.
+
 ## Wallpapers
 
 The wallpapers in the `wallpapers/` folder are sourced primarily from [Wallhaven](https://wallhaven.cc) and various other sources. I don't retain detailed attribution for all of them, so please don't sue me. If you see your work here and want attribution or removal, feel free to reach out.
