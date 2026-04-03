@@ -110,3 +110,7 @@ fi
 alias ls='eza -a --icons=always'
 alias ll='eza -al --icons=always'
 alias lt='eza -a --tree --level=1 --icons=always'
+
+# alias for fastfetch
+alias ff='fastfetch -c examples/13'
+alias cf='clear && fastfetch -c examples/13'
