@@ -1,5 +1,12 @@
 # Fastfetch Image Notes
 
+## Config files in this folder
+
+- Main fastfetch config: `config.jsonc`
+- ASCII art source: `ascii.txt`
+- SIXEL files: `sixels/`
+- SIXEL creation guide: [sixel.md](sixel.md)
+
 ## Sixel Images
 
 Detailed SIXEL creation steps are in [sixel.md](sixel.md).

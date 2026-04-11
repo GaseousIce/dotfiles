@@ -2,6 +2,12 @@
 
 This guide documents a reliable workflow for creating SIXEL images for Fastfetch.
 
+## Related config files
+
+- Fastfetch main config: `config.jsonc`
+- ASCII fallback file: `ascii.txt`
+- Existing SIXEL assets: `sixels/`
+
 ## Requirements
 
 - ImageMagick installed and available as the magick command in PowerShell.
