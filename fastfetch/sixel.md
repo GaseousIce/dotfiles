@@ -28,11 +28,7 @@ magick .\input.jpg -resize 250x sixel:output.sixel
 Example with center crop and mild saturation boost:
 
 ```powershell
-magick .\input.jpg `
-  -gravity center -crop 1:1 +repage `
-  -resize 250x `
-  -modulate 100,110,100 `
-  sixel:output.sixel
+magick .\input.jpg -gravity center -crop 1:1 +repage -resize 250x -modulate 100,110,100 sixel:output.sixel
 ```
 
 ## Useful Variants
