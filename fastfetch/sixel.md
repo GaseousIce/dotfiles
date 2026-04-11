@@ -48,9 +48,7 @@ magick .\input.png -background black -alpha remove -alpha off -resize 250x sixel
 Batch convert all PNG files in the current folder:
 
 ```powershell
-Get-ChildItem .\*.png | ForEach-Object {
-  magick $_.FullName -resize 250x "sixel:$($_.BaseName).sixel"
-}
+Get-ChildItem .\*.png | ForEach-Object {magick $_.FullName -resize 250x "sixel:$($_.BaseName).sixel"}
 ```
 
 ## Why 250x
