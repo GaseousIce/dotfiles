@@ -2,19 +2,15 @@
 
 ## Sixel Images
 
-To create sixels, use ImageMagick and render them at 250px wide with automatic height:
+Detailed SIXEL creation steps are in [sixel.md](sixel.md).
+
+Quick command:
 
 ```powershell
 magick .\input.jpg -resize 250x sixel:output.sixel
 ```
 
-`250x` means 250 width with automatic height.
-
-### Why `250x`?
-
-The current Fastfetch padding is tuned for that size. You can use any resolution you want, but you will need to adjust the padding yourself.
-
-A square input image is recommended for better aesthetics.
+The width `250x` matches the current Fastfetch padding in this setup.
 
 ## ASCII Alternative
 
