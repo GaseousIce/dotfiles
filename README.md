@@ -6,49 +6,60 @@ For Linux dots, see the Loonix branch in this repo: https://github.com/GaseousIc
 
 ![Preview](screenshot.png)
 
-## Hardlink PowerShell profile
+## Configs in this repo
 
-Create a hardlink from your profile location to this repo so PowerShell picks up the shared profile. Run these from the repo root so relative paths work.
+### PowerShell profile
 
-PowerShell:
+- Repo file: `powershell/Microsoft.PowerShell_profile.ps1`
+- Live location: `%USERPROFILE%\Documents\PowerShell\Microsoft.PowerShell_profile.ps1`
 
-```powershell
-New-Item -ItemType Directory -Path "$env:USERPROFILE\Documents\PowerShell" -Force
-New-Item -ItemType HardLink -Path "$env:USERPROFILE\Documents\PowerShell\Microsoft.PowerShell_profile.ps1" -Target "$PWD\powershell\Microsoft.PowerShell_profile.ps1"
-```
+### Windows Terminal
 
-Command Prompt:
+- Repo file: `windows-terminal/settings.json`
+- Live location: `%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
+- Windows Terminal Preview location: `%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\settings.json`
 
-```cmd
-mkdir "%USERPROFILE%\Documents\PowerShell"
-mklink /H "%USERPROFILE%\Documents\PowerShell\Microsoft.PowerShell_profile.ps1" "%CD%\powershell\Microsoft.PowerShell_profile.ps1"
-```
+### Fastfetch
 
-## Hardlink Windows Terminal settings
+- Main config: `fastfetch/config.jsonc`
+- ASCII fallback: `fastfetch/ascii.txt`
+- SIXEL notes: `fastfetch/sixel.md`
+- Example SIXEL files: `fastfetch/sixels/`
 
-Create a hardlink from Windows Terminal's settings file to this repo. Run these from the repo root so relative paths work.
+### FluentFlyout
 
-If you use Windows Terminal Preview, replace `Microsoft.WindowsTerminal_8wekyb3d8bbwe` with `Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe` in the paths below.
+- Repo file: `FluentFlyout/settings.xml`
 
-PowerShell:
+### Winhance
 
-```powershell
-New-Item -ItemType Directory -Path "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState" -Force
-New-Item -ItemType HardLink -Path "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json" -Target "$PWD\windows-terminal\settings.json"
-```
+- Repo file: `winhance/config.winhance`
 
-Command Prompt:
+### Wallpapers
 
-```cmd
-mkdir "%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState"
-mklink /H "%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json" "%CD%\windows-terminal\settings.json"
-```
+- Folder: `wallpapers/`
 
-## FluentFlyout Settings
+## Symlink workflow (Link Shell Extension)
+
+Use [Link Shell Extension](https://github.com/pacman2108/Link-Shell-Extension) to create symlinks from the live config locations to files in this repo.
+
+1. Install Link Shell Extension.
+2. In this repo, right-click the config file you want to link and choose **Pick Link Source**.
+3. Go to the target config location in Explorer.
+4. Right-click in the folder and choose **Drop As...** -> **Symbolic Link**.
+
+Suggested links:
+
+- `powershell/Microsoft.PowerShell_profile.ps1` -> `%USERPROFILE%\Documents\PowerShell\Microsoft.PowerShell_profile.ps1`
+- `windows-terminal/settings.json` -> `%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
+
+> [!NOTE]
+> Symlinking configs to this repo makes it much easier to track every change in Git because your live config files and repo files are the same source.
+
+## FluentFlyout settings import
 
 To import the FluentFlyout configuration, open [FluentFlyout](https://github.com/unchihugo/fluentflyout/), go to the **System** tab, navigate to the **Backup and Restore** section, and click **Import Settings**. Then select the `FluentFlyout/settings.xml` file from this repo.
 
-## Winhance Config
+## Winhance config import
 
 My Winhance config is in `winhance/config.winhance`.
 
