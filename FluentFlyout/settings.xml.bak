@@ -9,7 +9,7 @@
   <ShuffleEnabled>true</ShuffleEnabled>
   <Startup>true</Startup>
   <MediaFlyoutAlwaysDisplay>false</MediaFlyoutAlwaysDisplay>
-  <Duration>1000</Duration>
+  <Duration>3000</Duration>
   <NextUpEnabled>false</NextUpEnabled>
   <NextUpDuration>2000</NextUpDuration>
   <nIconLeftClick>0</nIconLeftClick>
@@ -25,9 +25,10 @@
   <DisableIfFullscreen>true</DisableIfFullscreen>
   <LockKeysBoldUI>false</LockKeysBoldUI>
   <LockKeysMonitorPreference>0</LockKeysMonitorPreference>
-  <LastKnownVersion>v2.9.1</LastKnownVersion>
+  <LastKnownVersion>v2.10.0</LastKnownVersion>
   <SeekbarEnabled>true</SeekbarEnabled>
   <PauseOtherSessionsEnabled>false</PauseOtherSessionsEnabled>
+  <LockKeysAnimated>true</LockKeysAnimated>
   <LockKeysInsertEnabled>true</LockKeysInsertEnabled>
   <MediaFlyoutBackgroundBlur>3</MediaFlyoutBackgroundBlur>
   <MediaFlyoutAcrylicWindowEnabled>true</MediaFlyoutAcrylicWindowEnabled>
@@ -36,11 +37,10 @@
   <AppLanguage>system</AppLanguage>
   <TaskbarWidgetEnabled>true</TaskbarWidgetEnabled>
   <TaskbarWidgetSelectedMonitor>0</TaskbarWidgetSelectedMonitor>
+  <TaskbarWidgetAutoHide>false</TaskbarWidgetAutoHide>
   <TaskbarWidgetPosition>0</TaskbarWidgetPosition>
   <TaskbarWidgetPadding>true</TaskbarWidgetPadding>
   <TaskbarWidgetManualPadding>0</TaskbarWidgetManualPadding>
-  <TaskbarWidgetClickable>true</TaskbarWidgetClickable>
-  <TaskbarWidgetCloseableFlyout>true</TaskbarWidgetCloseableFlyout>
   <TaskbarWidgetBackgroundBlur>false</TaskbarWidgetBackgroundBlur>
   <TaskbarWidgetHideCompletely>true</TaskbarWidgetHideCompletely>
   <TaskbarWidgetControlsEnabled>true</TaskbarWidgetControlsEnabled>
@@ -52,12 +52,12 @@
   <TaskbarVisualizerBarCount>20</TaskbarVisualizerBarCount>
   <TaskbarVisualizerCenteredBars>false</TaskbarVisualizerCenteredBars>
   <TaskbarVisualizerBaseline>false</TaskbarVisualizerBaseline>
-  <TaskbarVisualizerAudioSensitivity>2</TaskbarVisualizerAudioSensitivity>
+  <TaskbarVisualizerAudioSensitivity>3</TaskbarVisualizerAudioSensitivity>
   <TaskbarVisualizerAudioPeakLevel>2</TaskbarVisualizerAudioPeakLevel>
   <AcrylicBlurOpacity>175</AcrylicBlurOpacity>
   <UseAlbumArtAsAccentColor>true</UseAlbumArtAsAccentColor>
   <IsStoreVersion>false</IsStoreVersion>
-  <LastUpdateNotificationUnixSeconds>1773891500</LastUpdateNotificationUnixSeconds>
+  <LastUpdateNotificationUnixSeconds>1774850938</LastUpdateNotificationUnixSeconds>
   <ShowUpdateNotifications>true</ShowUpdateNotifications>
   <LegacyTaskbarWidthEnabled>false</LegacyTaskbarWidthEnabled>
 </UserSettings>

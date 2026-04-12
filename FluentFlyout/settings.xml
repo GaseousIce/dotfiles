@@ -10,7 +10,7 @@
   <Startup>true</Startup>
   <MediaFlyoutAlwaysDisplay>false</MediaFlyoutAlwaysDisplay>
   <Duration>3000</Duration>
-  <NextUpEnabled>false</NextUpEnabled>
+  <NextUpEnabled>true</NextUpEnabled>
   <NextUpDuration>2000</NextUpDuration>
   <nIconLeftClick>0</nIconLeftClick>
   <CenterTitleArtist>true</CenterTitleArtist>
@@ -25,9 +25,9 @@
   <DisableIfFullscreen>true</DisableIfFullscreen>
   <LockKeysBoldUI>false</LockKeysBoldUI>
   <LockKeysMonitorPreference>0</LockKeysMonitorPreference>
-  <LastKnownVersion>v2.10.0</LastKnownVersion>
+  <LastKnownVersion>v2.10.1</LastKnownVersion>
   <SeekbarEnabled>true</SeekbarEnabled>
-  <PauseOtherSessionsEnabled>false</PauseOtherSessionsEnabled>
+  <PauseOtherSessionsEnabled>true</PauseOtherSessionsEnabled>
   <LockKeysAnimated>true</LockKeysAnimated>
   <LockKeysInsertEnabled>true</LockKeysInsertEnabled>
   <MediaFlyoutBackgroundBlur>3</MediaFlyoutBackgroundBlur>
