@@ -10,7 +10,7 @@
   <Startup>true</Startup>
   <MediaFlyoutAlwaysDisplay>false</MediaFlyoutAlwaysDisplay>
   <Duration>3000</Duration>
-  <NextUpEnabled>true</NextUpEnabled>
+  <NextUpEnabled>false</NextUpEnabled>
   <NextUpDuration>2000</NextUpDuration>
   <nIconLeftClick>0</nIconLeftClick>
   <CenterTitleArtist>true</CenterTitleArtist>
